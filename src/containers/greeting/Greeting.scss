@@ -118,10 +118,38 @@
   }
 }
 
+.profile-image {
+  border-radius: 50%;
+  border: 0.5rem solid $githubProfileCardBorder;
+  margin-left: auto;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  box-shadow: $lightBoxShadow 0 30px 30px -30px;
+  transition: all 0.3s ease-out;
+}
+
+.profile-image:hover {
+  box-shadow: none;
+}
+
 .greeting-image-content-profile {
   text-align: right;
   flex: 20%;
   max-width: 20%;
   height: auto;
   padding-left: 60px;
+}
+
+.greeting-image-content-profile .profile-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+.greeting-image-content-profile .profile-image:hover {
+  box-shadow: $lightBoxShadow 0 50px 50px -50px;
+  transition: 0.3s ease-out;
 }
