@@ -38,7 +38,6 @@ const socialMediaLinks = {
   github: "https://github.com/linx05",
   linkedin: "https://www.linkedin.com/in/c%C3%A9sar-laredo-68642a60/",
   gmail: "cesar.f.laredo@gmail.com",
-  phone: "+526331263822",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -366,7 +365,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Want to discuss a project or just want to say hi?.",
-  number: "+526331263822",
   email_address: "cesar.f.laredo@gmail.com"
 };
 
