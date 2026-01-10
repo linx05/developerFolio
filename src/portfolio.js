@@ -17,7 +17,7 @@ const splashScreen = {
 
 const illustration = {
   animated: false, // Set to false to use static SVG
-  enabled: false,
+  enabled: false
 };
 
 const greeting = {
@@ -26,10 +26,9 @@ const greeting = {
   subTitle: emoji(
     "Freelance Lead Frontend Engineer with 8+ experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
-  showImage: true,
+  showImage: true
 };
 
 // Social Media Links
@@ -51,7 +50,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "My services",
-  subTitle: "Freelance software development with a focus on delivering high value results for your business.",
+  subTitle:
+    "Freelance software development with a focus on delivering high value results for your business.",
   skills: [
     // emoji(
     //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -363,8 +363,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Want to discuss a project or just want to say hi?.",
+  subtitle: "Want to discuss a project or just want to say hi?.",
   email_address: "cesar.f.laredo@gmail.com"
 };
 

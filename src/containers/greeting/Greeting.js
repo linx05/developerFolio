@@ -10,7 +10,7 @@ import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Greeting({ profile }) {
+export default function Greeting({profile}) {
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
@@ -59,16 +59,18 @@ export default function Greeting({ profile }) {
               />
             </div>
           )}
-          {illustration.enabled && <div className="greeting-image-content-profile">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
-          </div>}
+          {illustration.enabled && (
+            <div className="greeting-image-content-profile">
+              {illustration.animated ? (
+                <DisplayLottie animationData={landingPerson} />
+              ) : (
+                <img
+                  alt="man sitting on table"
+                  src={require("../../assets/images/manOnTable.svg")}
+                ></img>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </Fade>
